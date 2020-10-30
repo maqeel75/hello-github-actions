@@ -9,3 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Shaz"
+      - uses: ./action-b
+        with:
+          MY_NAME: "Shaz"
