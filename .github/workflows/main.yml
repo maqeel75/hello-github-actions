@@ -7,6 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
+        with:
+          MY_NAME: "Shaz"
       - uses: ./action-b
         with:
           MY_NAME: "Shaz"
