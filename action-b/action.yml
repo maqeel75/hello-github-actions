@@ -1,0 +1,17 @@
+name: "Give task Actions"
+description: "To ask something"
+author: "maqeel75@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to ask"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "red"
